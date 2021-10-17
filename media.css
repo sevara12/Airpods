@@ -1,0 +1,153 @@
+@media(max-width: 1024px){
+    .nav{
+        padding: 0 20px;
+        padding-top: 5px;
+    }
+
+    .airpod{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .before-after::before{
+        display: none;
+    }
+    
+    .before-after::after{
+       display: none;
+    }
+
+    .image-3{
+        margin: 0 30px;
+    }
+
+    .main-cards{
+        flex-wrap: wrap;
+    }
+
+    .card{
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-two{
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    .image-2{
+        margin-top: 50px;
+    }
+
+    .air-4{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 768px){
+    .footer-content{
+        padding-left: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .link{
+        margin-right: 15px;
+        margin-left: 8px;
+    }
+
+    .header-title{
+        font-size: 80px;
+    }
+
+    .link-button{
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 650px){
+    .text-three{
+        margin-top: 25px;
+        margin-bottom: 30px;
+    }
+
+    .text-four{
+        margin-top: 30px;
+        text-align: right;
+    }
+
+    .text-one{
+        width: 330px;
+        margin-bottom: 20px;
+    }
+
+    .text-two{
+        width: 330px;
+    }
+
+    .image-1{
+        width: 400px;
+    }
+
+    .header-title{
+        font-size: 65px;
+    }
+
+    .list{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer-logo{
+        margin: 20px;
+    }
+
+    .link{
+        margin-top: 30px;
+    }
+
+    .header{
+        height: 550px;
+    }
+}
+
+@media(max-width: 450px){
+    .ln{
+        margin-top: 10px;
+    }
+
+    .header-title{
+        font-size: 45px;
+    }
+
+    .image-1{
+        width: 300px;
+    }
+
+    .text-three{
+        width: 250px;
+    }
+
+    .text-four{
+       width: 250px;
+    }
+
+    .image-3{
+        width: 200px;
+    }
+
+    .text-one{
+       width: 200px;
+    }
+
+    .text-two{
+        width: 200px;
+    }
+
+    .image-2{
+        width: 300px;
+    }
+}
+
